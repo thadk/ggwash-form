@@ -33,7 +33,7 @@ var App = React.createClass({
 
         <footer className='site-footer' role='contentinfo'>
           <div className='inner'>
-            <p><a href='http://ocp.bureauprojects.co/' title='Visit Open Contracting Partnership website'>OCP</a> &middot; 2016</p>
+            <p><a href='http://open-contracting.org/' title='Visit Open Contracting Partnership website'>OCP</a> &middot; 2016</p>
           </div>
         </footer>
       </div>

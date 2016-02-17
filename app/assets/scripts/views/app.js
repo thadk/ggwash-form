@@ -17,7 +17,8 @@ var App = React.createClass({
             <div className='site-headline'>
               <h1 className='site-title'>
                 <a href='/' title='Visit homepage'>
-                  Blue Pencil
+                  <img src='assets/graphics/layout/ocp-logo-neg.svg' width='482' height='38' alt='Ocp logo' />
+                  <span>Open Contracting Partnership</span>
                 </a>
               </h1>
             </div>
@@ -32,7 +33,7 @@ var App = React.createClass({
 
         <footer className='site-footer' role='contentinfo'>
           <div className='inner'>
-            <p>Made with love by <a href='https://developmentseed.org' title='Visit Development Seed website'>Development Seed</a> &middot; 2016</p>
+            <p><a href='http://open-contracting.org/' title='Visit Open Contracting Partnership website'>OCP</a> &middot; 2016</p>
           </div>
         </footer>
       </div>

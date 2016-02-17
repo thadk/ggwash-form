@@ -1,15 +1,15 @@
 /* ==========================================================================
    Colors
    ========================================================================== */
-$base-color: #2c3e50;                   // Midnight blue
-$primary-color: #16a085;              	// Belize Hole
-$secondary-color: #3498db;          	  // Purple
+$base-color: #323238;                   // OCP grey
+$primary-color: #9BAF00;                // Lime
+$secondary-color: #9065EB;              // Purple
 // $tertiary-color: #ffffff;            // Undefined
 
 $danger-color: #ea4f54;                 // Red
-$success-color: $primary-color;         // lime
+$success-color: $primary-color;         // Turquoise
 $warning-color: #f6d55f;                // Yellow
-$info-color: #008CBA;          			    // Blue
+$info-color: #008CBA;               // Blue
 
 $link-color: $primary-color;
 $base-alpha-color: rgba($base-color, 0.12);

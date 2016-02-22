@@ -2,10 +2,11 @@
 set -e # halt script on error
 
 echo "Get ready, we're pushing to gh-pages!"
+cp CNAME dist
 cd dist
 git init
-git config user.name "Travis-CI"
-git config user.email "travis@somewhere.com"
+git config user.name "OCP bot"
+git config user.email "ocp-bot@users.noreply.github.com"
 git add .
 git commit -m "CI deploy to gh-pages"
 git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages

@@ -4,7 +4,7 @@ var logo = require('./logo');
  * App config for production.
  */
 module.exports = {
-  api: 'http://ocp-server.herokuapp.com',
+  api: 'http://ggwash-forms.herokuapp.com',
   environment: 'production',
   consoleMessage: logo
 };
